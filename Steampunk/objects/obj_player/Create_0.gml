@@ -1,5 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
-canDash = false;
+can_dash = true;
+move_lock = false;
 xdir = 0;
 ydir = 0;
+friction = .4;
