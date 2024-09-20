@@ -38,7 +38,13 @@ if move_lock {
 	}
 	
 	// Attack mechanic
-	// TODO
+	if _attack {
+		instance_create_layer(x, y, "Instances", obj_swordHitbox1);
+		obj_swordHitbox1.direction = direction;
+		// TODO have sword stay with player
+		// TODO rotate sword sprite with direction
+		// TODO have sword swing in set angles
+	}
 }
 
 // Keeps player within room

@@ -1,6 +1,7 @@
 {
   "FolderOrderSettings":[],
   "ResourceOrderSettings":[
+    {"name":"obj_swordHitbox1","order":1,"path":"objects/obj_swordHitbox1/obj_swordHitbox1.yy",},
     {"name":"spr_groundTemp","order":2,"path":"sprites/spr_groundTemp/spr_groundTemp.yy",},
     {"name":"spr_swordHitbox1","order":3,"path":"sprites/spr_swordHitbox1/spr_swordHitbox1.yy",},
   ],

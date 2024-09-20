@@ -1,4 +1,4 @@
-/// @description variable initilization
+/// @description variable definitions
 move_lock = false;
 
 can_dash = true;

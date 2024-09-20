@@ -1,2 +1,2 @@
-/// @description Dash Cooldown Timer
+/// @description dash Cooldown Timer
 can_dash = true;

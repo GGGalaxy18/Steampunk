@@ -1,10 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description variable definitions
 
-//enemy speed
-vspeed = 3;
-
-//enemy health
-enemyHP = 50;
-
+speed = move_speed;
 can_be_hit = true;
