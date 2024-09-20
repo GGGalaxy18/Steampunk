@@ -1,11 +1,12 @@
 /// @description movement and dash implementation
-// Ensures movement in 8 directions at a set speed (diagonal is not faster)
+// Inpute definitions
 var _left = keyboard_check(vk_left) or keyboard_check(ord("A"));
 var _right = keyboard_check(vk_right) or keyboard_check(ord("D"));
 var _up = keyboard_check(vk_up) or keyboard_check(ord("W"));
 var _down = keyboard_check(vk_down) or keyboard_check(ord("S"));
 var _dash = keyboard_check(vk_space);
 var _attack = mouse_check_button(mb_left);
+// Ensures movement in 8 directions at a set speed (diagonal is not faster)
 xdir = _right - _left;
 ydir = _down - _up;
 
@@ -37,7 +38,7 @@ if move_lock {
 	}
 	
 	// Attack mechanic
-	
+	// TODO
 }
 
 // Keeps player within room
