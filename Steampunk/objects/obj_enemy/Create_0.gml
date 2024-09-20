@@ -6,3 +6,5 @@ vspeed = 3;
 
 //enemy health
 enemyHP = 50;
+
+can_be_hit = true;
