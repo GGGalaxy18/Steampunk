@@ -12,11 +12,11 @@
     {"name":"scr_player_state_dash","order":3,"path":"scripts/scr_player_state_dash/scr_player_state_dash.yy",},
     {"name":"scr_player_state_free","order":4,"path":"scripts/scr_player_state_free/scr_player_state_free.yy",},
     {"name":"Character_front","order":1,"path":"sprites/Character_front/Character_front.yy",},
-    {"name":"Character_right","order":2,"path":"sprites/Character_right/Character_right.yy",},
+    {"name":"character_left","order":4,"path":"sprites/character_left/character_left.yy",},
+    {"name":"character_right","order":3,"path":"sprites/character_right/character_right.yy",},
     {"name":"spr_groundTemp","order":2,"path":"sprites/spr_groundTemp/spr_groundTemp.yy",},
     {"name":"spr_playerAttackTempHB","order":2,"path":"sprites/spr_playerAttackTempHB/spr_playerAttackTempHB.yy",},
     {"name":"spr_playerIdleTemp","order":4,"path":"sprites/spr_playerIdleTemp/spr_playerIdleTemp.yy",},
     {"name":"spr_swordHitbox1","order":3,"path":"sprites/spr_swordHitbox1/spr_swordHitbox1.yy",},
-    {"name":"Sprite9","order":3,"path":"sprites/Sprite9/Sprite9.yy",},
   ],
 }
