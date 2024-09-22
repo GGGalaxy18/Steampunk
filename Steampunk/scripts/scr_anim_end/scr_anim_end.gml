@@ -13,4 +13,5 @@
 function animation_end(_sprite, _image){
 	_sprite = sprite_index;
 	_image = image_index;
+	var tempVariable = 0;
 }
