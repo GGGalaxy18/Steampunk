@@ -6,6 +6,7 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":1,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":12,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_player",
@@ -39,9 +40,12 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_playerTemp",
-    "path":"sprites/spr_playerTemp/spr_playerTemp.yy",
+    "name":"spr_playerIdleTemp",
+    "path":"sprites/spr_playerIdleTemp/spr_playerIdleTemp.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"spr_playerIdleTemp",
+    "path":"sprites/spr_playerIdleTemp/spr_playerIdleTemp.yy",
+  },
   "visible":true,
 }
