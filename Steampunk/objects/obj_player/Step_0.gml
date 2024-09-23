@@ -1,14 +1,14 @@
 /// @description movement and dash implementation
 // Input definitions
-var _left = keyboard_check(vk_left) or keyboard_check(ord("A"));
-var _right = keyboard_check(vk_right) or keyboard_check(ord("D"));
-var _up = keyboard_check(vk_up) or keyboard_check(ord("W"));
-var _down = keyboard_check(vk_down) or keyboard_check(ord("S"));
-var _dash = keyboard_check(vk_space);
-var _attack = mouse_check_button(mb_left);
+left = keyboard_check(vk_left) or keyboard_check(ord("A"));
+right = keyboard_check(vk_right) or keyboard_check(ord("D"));
+up = keyboard_check(vk_up) or keyboard_check(ord("W"));
+down = keyboard_check(vk_down) or keyboard_check(ord("S"));
+dash = keyboard_check_pressed(vk_space);
+attack = mouse_check_button_pressed(mb_left);
 // Ensures movement in 8 directions at a set speed (diagonal is not faster)
-xdir = _right - _left;
-ydir = _down - _up;
+xdir = right - left;
+ydir = down - up;
 
 switch (state) {
 	case PLAYERSTATE.FREE: scr_player_state_free(); break;
@@ -16,14 +16,6 @@ switch (state) {
 	case PLAYERSTATE.ATTACK_SHOOT: scr_player_state_attack_shoot(); break;
 	case PLAYERSTATE.ATTACK_DASH: scr_player_state_attack_dash(); break;
 	case PLAYERSTATE.DASH: scr_player_state_dash(); break;
-}
-
-if move_lock {
-	if (array_length(dash_queue) == 0) {
-		direction = point_direction(0, 0, xdir, ydir);	// Sets direction of queued dash
-	}
-} else {
-	
 }
 
 // Keeps player within room

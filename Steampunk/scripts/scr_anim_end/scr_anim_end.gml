@@ -10,8 +10,9 @@
 
 // script courtesy of PixellatedPope & Minty Python from the GameMake subreddit discord
 // https://www.reddit.com/r/gamemaker/wiki/discord
-function animation_end(_sprite, _image){
-	_sprite = sprite_index;
-	_image = image_index;
-	var tempVariable = 0;
+function animation_end(){
+	var _type = sprite_get_speed_type(sprite_index);
+	var _spd = sprite_get_speed(sprite_index)*image_speed;
+	if (_type == spritespeed_framespersecond) { _spd /= game_get_speed(gamespeed_fps); }
+	return image_index + _spd >= sprite_get_number(sprite_index);
 }
