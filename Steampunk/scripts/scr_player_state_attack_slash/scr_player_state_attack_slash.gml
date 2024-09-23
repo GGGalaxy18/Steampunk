@@ -1,4 +1,4 @@
-function scr_player_state_attack_slash(){
+function scr_player_state_attack_slash() {
 	hspeed = 0;
 	vspeed = 0;
 	
@@ -8,6 +8,11 @@ function scr_player_state_attack_slash(){
 		image_index = 0;
 		ds_list_clear(hit_by_attack);
 	}
+	
+	// Set sprite to face left or right
+	if lengthdir_x(1, point_direction(x, y, mouse_x, mouse_y)) < 0 {
+		image_xscale = -1 * abs(image_xscale);
+	} else { image_xscale = 1 * abs(image_xscale); }
 	
 	// Use attack hitbox and check for hits
 	mask_index = spr_playerAttackTempHB;
