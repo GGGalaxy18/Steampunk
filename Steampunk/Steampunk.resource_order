@@ -1,6 +1,7 @@
 {
   "FolderOrderSettings":[
     {"name":"PlayerStates","order":5,"path":"folders/Scripts/PlayerStates.yy",},
+    {"name":"TileSprites","order":6,"path":"folders/Sprites/TileSprites.yy",},
     {"name":"PlayerSprites","order":5,"path":"folders/Sprites/PlayerSprites.yy",},
   ],
   "ResourceOrderSettings":[
@@ -13,10 +14,11 @@
     {"name":"Character_front","order":1,"path":"sprites/Character_front/Character_front.yy",},
     {"name":"character_left","order":4,"path":"sprites/character_left/character_left.yy",},
     {"name":"character_right","order":3,"path":"sprites/character_right/character_right.yy",},
-    {"name":"spr_groundTemp","order":2,"path":"sprites/spr_groundTemp/spr_groundTemp.yy",},
+    {"name":"spr_boundary_tile","order":2,"path":"sprites/spr_boundary_tile/spr_boundary_tile.yy",},
+    {"name":"spr_isoGroundTemp","order":1,"path":"sprites/spr_isoGroundTemp/spr_isoGroundTemp.yy",},
     {"name":"spr_playerAttackTemp","order":2,"path":"sprites/spr_playerAttackTemp/spr_playerAttackTemp.yy",},
     {"name":"spr_playerDashTemp","order":3,"path":"sprites/spr_playerDashTemp/spr_playerDashTemp.yy",},
     {"name":"spr_playerIdleTemp","order":1,"path":"sprites/spr_playerIdleTemp/spr_playerIdleTemp.yy",},
-    {"name":"spr_swordHitbox1","order":3,"path":"sprites/spr_swordHitbox1/spr_swordHitbox1.yy",},
+    {"name":"ts_boundary","order":1,"path":"tilesets/ts_boundary/ts_boundary.yy",},
   ],
 }
