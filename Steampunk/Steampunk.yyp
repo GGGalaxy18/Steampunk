@@ -47,6 +47,7 @@
     {"id":{"name":"scr_player_state_attack_slash","path":"scripts/scr_player_state_attack_slash/scr_player_state_attack_slash.yy",},},
     {"id":{"name":"scr_player_state_dash","path":"scripts/scr_player_state_dash/scr_player_state_dash.yy",},},
     {"id":{"name":"scr_player_state_free","path":"scripts/scr_player_state_free/scr_player_state_free.yy",},},
+    {"id":{"name":"character_back","path":"sprites/character_back/character_back.yy",},},
     {"id":{"name":"Character_front","path":"sprites/Character_front/Character_front.yy",},},
     {"id":{"name":"character_left","path":"sprites/character_left/character_left.yy",},},
     {"id":{"name":"character_right","path":"sprites/character_right/character_right.yy",},},

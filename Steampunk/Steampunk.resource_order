@@ -11,6 +11,7 @@
     {"name":"scr_player_state_attack_slash","order":2,"path":"scripts/scr_player_state_attack_slash/scr_player_state_attack_slash.yy",},
     {"name":"scr_player_state_dash","order":3,"path":"scripts/scr_player_state_dash/scr_player_state_dash.yy",},
     {"name":"scr_player_state_free","order":4,"path":"scripts/scr_player_state_free/scr_player_state_free.yy",},
+    {"name":"character_back","order":5,"path":"sprites/character_back/character_back.yy",},
     {"name":"Character_front","order":1,"path":"sprites/Character_front/Character_front.yy",},
     {"name":"character_left","order":4,"path":"sprites/character_left/character_left.yy",},
     {"name":"character_right","order":3,"path":"sprites/character_right/character_right.yy",},
