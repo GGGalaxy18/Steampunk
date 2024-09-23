@@ -1,15 +1,14 @@
 {
   "$GMTileSet":"",
-  "%Name":"ts_boundary",
+  "%Name":"ts_tile_map",
   "autoTileSets":[],
   "macroPageTiles":{
-    "SerialiseHeight":13,
-    "SerialiseWidth":11,
-    "TileCompressedData":[-142,0,1,22,],
-    "TileDataFormat":1,
+    "SerialiseHeight":0,
+    "SerialiseWidth":0,
+    "TileSerialiseData":[],
   },
-  "name":"ts_boundary",
-  "out_columns":4,
+  "name":"ts_tile_map",
+  "out_columns":1,
   "out_tilehborder":2,
   "out_tilevborder":2,
   "parent":{
@@ -19,8 +18,8 @@
   "resourceType":"GMTileSet",
   "resourceVersion":"2.0",
   "spriteId":{
-    "name":"spr_boundary",
-    "path":"sprites/spr_boundary/spr_boundary.yy",
+    "name":"spr_tile_map",
+    "path":"sprites/spr_tile_map/spr_tile_map.yy",
   },
   "spriteNoExport":false,
   "textureGroupId":{
@@ -28,16 +27,16 @@
     "path":"texturegroups/Default",
   },
   "tileAnimation":{
-    "FrameData":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,],
+    "FrameData":[0,1,],
     "SerialiseFrameCount":1,
   },
   "tileAnimationFrames":[],
   "tileAnimationSpeed":15.0,
-  "tileHeight":16,
+  "tileHeight":32,
   "tilehsep":0,
   "tilevsep":0,
-  "tileWidth":16,
+  "tileWidth":32,
   "tilexoff":0,
   "tileyoff":0,
-  "tile_count":16,
+  "tile_count":2,
 }

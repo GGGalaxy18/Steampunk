@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_tile_to_room",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_tile_to_room",
+  "parent":{
+    "name":"IsometricScriptStuff",
+    "path":"folders/Scripts/IsometricScriptStuff.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

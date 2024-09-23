@@ -5,7 +5,7 @@ function scr_player_state_free(){
 		var _x = lengthdir_x(move_speed, direction);
 		var _y = lengthdir_y(move_speed, direction);
 		with (obj_boundary_collision) {
-			if (!place_meeting(x + _x, y + _y, obj_boundary)) {
+			if (check_walkable(x + _x, y + _y)) {
 				other.x += _x;
 				other.y += _y;
 			}

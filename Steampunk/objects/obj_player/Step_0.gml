@@ -18,6 +18,5 @@ switch (state) {
 	case PLAYERSTATE.DASH: scr_player_state_dash(); break;
 }
 
-// Keeps player within room
-x = clamp(x, sprite_width/2, room_width-sprite_width/2);
-y = clamp(y, sprite_height/2, room_height-sprite_height/2);
+// Have camera follow player
+camera_set_view_pos(view_camera[0], x-camera_get_view_width(view_camera[0])/2, y-camera_get_view_height(view_camera[0])/2);
