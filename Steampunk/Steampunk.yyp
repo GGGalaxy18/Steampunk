@@ -38,7 +38,6 @@
   "resources":[
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
-    {"id":{"name":"obj_swordHitbox1","path":"objects/obj_swordHitbox1/obj_swordHitbox1.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"scr_anim_end","path":"scripts/scr_anim_end/scr_anim_end.yy",},},
     {"id":{"name":"scr_enemy_hit","path":"scripts/scr_enemy_hit/scr_enemy_hit.yy",},},
@@ -54,6 +53,7 @@
     {"id":{"name":"spr_groundTemp","path":"sprites/spr_groundTemp/spr_groundTemp.yy",},},
     {"id":{"name":"spr_playerAttackTemp","path":"sprites/spr_playerAttackTemp/spr_playerAttackTemp.yy",},},
     {"id":{"name":"spr_playerAttackTempHB","path":"sprites/spr_playerAttackTempHB/spr_playerAttackTempHB.yy",},},
+    {"id":{"name":"spr_playerDashTemp","path":"sprites/spr_playerDashTemp/spr_playerDashTemp.yy",},},
     {"id":{"name":"spr_playerIdleTemp","path":"sprites/spr_playerIdleTemp/spr_playerIdleTemp.yy",},},
     {"id":{"name":"spr_swordHitbox1","path":"sprites/spr_swordHitbox1/spr_swordHitbox1.yy",},},
   ],

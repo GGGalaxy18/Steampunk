@@ -2,12 +2,14 @@ function scr_player_state_attack_slash(){
 	hspeed = 0;
 	vspeed = 0;
 	
-	// Setting the animation to the attack animation
+	// Start of attack
 	if (sprite_index != spr_playerAttackTemp) {
 		sprite_index = spr_playerAttackTemp;
 		image_index = 0;
 		ds_list_clear(hit_by_attack);
 	}
+	
+	// Use attack hitbox and check for hits
 	mask_index = spr_playerAttackTempHB;
 	var _hit_by_attack_now = ds_list_create(); // List of enemies hit this frame;
 	var _hits = instance_place_list(x, y, obj_enemy, _hit_by_attack_now, false);
@@ -18,7 +20,7 @@ function scr_player_state_attack_slash(){
 			if (ds_list_find_index(hit_by_attack, _hit_id) == -1) {
 				ds_list_add(hit_by_attack, _hit_id);
 				with (_hit_id) {
-					scr_enemy_hit(2); // 2 is a placeholder for damage done to enemy
+					scr_enemy_hit(10); // 10 is a placeholder for damage done to enemy
 				}
 			}
 		}
@@ -26,10 +28,8 @@ function scr_player_state_attack_slash(){
 	ds_list_destroy(_hit_by_attack_now);
 	mask_index = spr_playerIdleTemp;
 	
-	
-	// Delete late if decided not to use rotating sword obj
-	//instance_create_layer(x, y, "Instances", obj_swordHitbox1);
-	//obj_swordHitbox1.image_angle = direction
-	// TODO have sword stay with player
-	// TODO have sword swing in set angles
+	if (animation_end()) {
+		sprite_index = spr_playerIdleTemp;
+		state = PLAYERSTATE.FREE;
+	}
 }

@@ -6,9 +6,9 @@ function scr_player_state_free(){
 	}
 
 	// Dash mechanic
-	if _dash { state = PLAYERSTATE.DASH; }
+	if dash { state = PLAYERSTATE.DASH; }
 	
 	// Melee attack mechanic
-	if _attack { state = PLAYERSTATE.ATTACK_SLASH }
+	if attack { state = PLAYERSTATE.ATTACK_SLASH; }
 		
 }
