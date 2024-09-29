@@ -1,5 +1,6 @@
 {
   "FolderOrderSettings":[
+    {"name":"Environment","order":6,"path":"folders/Objects/Environment.yy",},
     {"name":"PlayerRelated","order":5,"path":"folders/Objects/PlayerRelated.yy",},
     {"name":"IsometricScriptStuff","order":8,"path":"folders/Scripts/IsometricScriptStuff.yy",},
     {"name":"PlayerSprites","order":5,"path":"folders/Sprites/PlayerSprites.yy",},
@@ -20,6 +21,7 @@
     {"name":"scr_set_iso_direction","order":9,"path":"scripts/scr_set_iso_direction/scr_set_iso_direction.yy",},
     {"name":"scr_tile_to_room","order":2,"path":"scripts/scr_tile_to_room/scr_tile_to_room.yy",},
     {"name":"spr_boundary_collision","order":4,"path":"sprites/spr_boundary_collision/spr_boundary_collision.yy",},
+    {"name":"spr_building","order":5,"path":"sprites/spr_building/spr_building.yy",},
     {"name":"spr_isoGroundTemp","order":3,"path":"sprites/spr_isoGroundTemp/spr_isoGroundTemp.yy",},
     {"name":"spr_player_n","order":5,"path":"sprites/spr_player_n/spr_player_n.yy",},
     {"name":"spr_player_s","order":6,"path":"sprites/spr_player_s/spr_player_s.yy",},

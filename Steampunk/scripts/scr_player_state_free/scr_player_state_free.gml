@@ -5,9 +5,10 @@ function scr_player_state_free(){
 		var _x = lengthdir_x(move_speed, direction);
 		var _y = lengthdir_y(move_speed, direction);
 		with (obj_boundary_collision) {
-			if (check_walkable(x + _x, y + _y)) {
+			if (check_walkable(x + _x, y + _y)) {	// TODO: Check sprite width for collision too
 				other.x += _x;
 				other.y += _y;
+				set_player_z();
 			}
 		}
 	}

@@ -11,7 +11,6 @@ for (var tX = 0; tX < MAP_W; tX++) {
 		_tile_z = _tile_data[TILE.Z];
 		
 		if (room_to_tile_x(mouse_x, mouse_y) == tX) and ((room_to_tile_y(mouse_x, mouse_y) == tY)) {
-			_tile_index = 2;
 			_tile_z += 2;
 		}
 		

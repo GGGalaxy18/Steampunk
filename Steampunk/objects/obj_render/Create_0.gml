@@ -13,7 +13,8 @@ for (var tX = 0; tX < MAP_W; tX++) {
 		// Format: [Sprite, Z]
 		var _this_tile = [-1, 0];
 		_this_tile[TILE.SPRITE] = _tile_map_data;
-		_this_tile[TILE.Z] = irandom(2);			// Changes tile height
+		_this_tile[TILE.Z] = 0;			// Changes tile height (set irandom(n) or 0)
+		if array_contains([2, 3], _this_tile[TILE.SPRITE]) { _this_tile[TILE.Z] -= 8 }; // Raise height of sidewalk
 		global.the_map[# tX, tY] = _this_tile;
 	}
 }
