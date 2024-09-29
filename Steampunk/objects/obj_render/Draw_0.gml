@@ -15,6 +15,6 @@ for (var tX = 0; tX < MAP_W; tX++) {
 			_tile_z += 2;
 		}
 		
-		if (_tile_index != 0) draw_sprite(spr_isoGroundTemp_1, _tile_index-1, _room_x, _room_y + _tile_z);
+		if (_tile_index != 0) draw_sprite(spr_isoGroundTemp, _tile_index-1, _room_x, _room_y + _tile_z);
 	}
 }

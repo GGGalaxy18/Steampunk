@@ -10,6 +10,8 @@ attack = mouse_check_button_pressed(mb_left);
 xdir = right - left;
 ydir = down - up;
 
+
+// State Machine
 switch (state) {
 	case PLAYERSTATE.FREE: scr_player_state_free(); break;
 	case PLAYERSTATE.ATTACK_SLASH: scr_player_state_attack_slash(); break;

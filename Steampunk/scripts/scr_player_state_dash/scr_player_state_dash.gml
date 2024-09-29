@@ -1,3 +1,6 @@
+/// Currently player can dash twice within one cooldown window (does not need to be consecutive)
+/// Cooldown starts on first dash (second dash does not affect cooldown)
+/// Theoretically could time three dashes at once
 function scr_player_state_dash() {
 	// Start of dash
 	if (sprite_index != spr_playerDashTemp) {

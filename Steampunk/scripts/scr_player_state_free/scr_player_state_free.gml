@@ -1,7 +1,7 @@
 function scr_player_state_free(){
 	// Movement management
 	if ((xdir != 0) or (ydir != 0)) {
-		direction = point_direction(0, 0, xdir, ydir);	// Sets direction of player
+		direction = set_iso_direction(point_direction(0, 0, xdir, ydir));	// Sets direction of player
 		var _x = lengthdir_x(move_speed, direction);
 		var _y = lengthdir_y(move_speed, direction);
 		with (obj_boundary_collision) {
@@ -12,13 +12,14 @@ function scr_player_state_free(){
 		}
 	}
 	
-	// Sprite management
+	// Sprite management (W sprites are flipped)
 	if (xdir < 0) {						// Facing _____ West
 		image_xscale = -1 * abs(image_xscale);	// Set sprite to face left
 		if (ydir < 0) {					// Facing North West
 			// set NW sprite
 		} else if (ydir > 0) {			// Facing South West
 			// set SW sprite
+			sprite_index = spr_player_se;
 		} else {						// Facing West
 			// set W sprite
 		}
@@ -28,14 +29,17 @@ function scr_player_state_free(){
 			// set NE sprite
 		} else if (ydir > 0) {			// Facing South East
 			// set SE sprite
+			sprite_index = spr_player_se;
 		} else {						// Facing East
 			// set E sprite
 		}
 	} else {							// Facing North, South, or nowhere
 		if (ydir < 0) {					// Facing North
 			// set N sprite
+			sprite_index = spr_player_n;
 		} else if (ydir > 0) {			// Facing South
 			// set S sprite
+			sprite_index = spr_player_s;
 		} else {						// Facing nowhere
 			// set idle sprite
 		}
