@@ -1,4 +1,5 @@
 function scr_player_state_free(){
+	
 	// Movement management
 	if ((xdir != 0) or (ydir != 0)) {
 		direction = set_iso_direction(point_direction(0, 0, xdir, ydir));	// Sets direction of player

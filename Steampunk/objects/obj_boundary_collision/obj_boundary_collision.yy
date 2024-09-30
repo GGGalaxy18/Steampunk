@@ -36,5 +36,5 @@
     "path":"sprites/spr_boundary_collision/spr_boundary_collision.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

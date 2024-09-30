@@ -7,7 +7,6 @@ can_attack = true;
 
 xdir = 0;
 ydir = 0;
-friction = .4; // slows the player down (reduces speed)
 
 // Sets the player position in the rendered room based on "MAP" instance layer position
 // Should be in every object's create event where position on map matters
