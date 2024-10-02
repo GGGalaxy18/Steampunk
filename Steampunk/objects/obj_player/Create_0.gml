@@ -4,7 +4,10 @@ in_dash = false;
 dash_queue = [];
 
 can_attack = true;
+
 can_shoot = true;
+in_reload = false;
+current_magazine = max_magazine;
 
 xdir = 0;
 ydir = 0;
@@ -27,3 +30,4 @@ down = noone;
 dash = noone;
 melee_attack = noone;
 ranged_attack = noone;
+reload = noone;

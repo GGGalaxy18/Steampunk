@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"scr_check_dash",
+  "%Name":"scr_reload",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"scr_check_dash",
+  "name":"scr_reload",
   "parent":{
     "name":"PlayerScripts",
     "path":"folders/Scripts/PlayerScripts.yy",

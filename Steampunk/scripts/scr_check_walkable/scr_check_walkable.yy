@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"scr_check_walkable",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"PlayerScripts",
+    "path":"folders/Scripts/PlayerScripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

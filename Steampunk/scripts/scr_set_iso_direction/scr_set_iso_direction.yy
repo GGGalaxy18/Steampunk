@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"scr_set_iso_direction",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"IsometricScriptStuff",
+    "path":"folders/Scripts/IsometricScriptStuff.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

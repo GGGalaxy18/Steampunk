@@ -7,6 +7,7 @@ down = keyboard_check(vk_down) or keyboard_check(ord("S"));
 dash = keyboard_check_pressed(vk_space);
 melee_attack = mouse_check_button_pressed(mb_left);
 ranged_attack = mouse_check_button_pressed(mb_right);
+reload = keyboard_check_pressed(ord("R"));
 // Ensures movement in 8 directions at a set speed (diagonal is not faster)
 xdir = right - left;
 ydir = down - up;
