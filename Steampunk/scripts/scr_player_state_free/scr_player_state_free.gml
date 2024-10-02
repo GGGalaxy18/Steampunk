@@ -13,57 +13,61 @@ function scr_player_state_free(){
 			}
 		}
 	}
-	
-	if reload or in_reload { scr_reload(); } else {
-		// Sprite management (W sprites are flipped)
-		if (xdir < 0) {						// Facing _____ West
-			image_xscale = -1 * abs(image_xscale);	// Set sprite to face left
-			if (ydir < 0) {					// Facing North West
-				// set NW sprite
-			} else if (ydir > 0) {			// Facing South West
-				// set SW sprite
-				sprite_index = spr_player_se;
-			} else {						// Facing West
-				// set W sprite
-			}
-		} else if (xdir > 0) {				// Facing _____ East
-			image_xscale = 1 * abs(image_xscale);	// Set sprite to face right
-			if (ydir < 0) {					// Facing North East
-				// set NE sprite
-			} else if (ydir > 0) {			// Facing South East
-				// set SE sprite
-				sprite_index = spr_player_se;
-			} else {						// Facing East
-				// set E sprite
-			}
-		} else {							// Facing North, South, or nowhere
-			if (ydir < 0) {					// Facing North
-				// set N sprite
-				sprite_index = spr_player_n;
-			} else if (ydir > 0) {			// Facing South
-				// set S sprite
-				sprite_index = spr_player_s;
-			} else {						// Facing nowhere
-				// set idle sprite
-			}
+		
+	// Sprite management (W sprites are flipped)
+	if (xdir < 0) {						// Facing _____ West
+		image_xscale = -1 * abs(image_xscale);	// Set sprite to face left
+		if (ydir < 0) {					// Facing North West
+			// set NW sprite
+		} else if (ydir > 0) {			// Facing South West
+			// set SW sprite
+			sprite_index = spr_player_se;
+		} else {						// Facing West
+			// set W sprite
 		}
-	
-		// Dash mechanic
-		if dash {
-			state = PLAYERSTATE.DASH;
-			scr_player_state_dash();
+	} else if (xdir > 0) {				// Facing _____ East
+		image_xscale = 1 * abs(image_xscale);	// Set sprite to face right
+		if (ydir < 0) {					// Facing North East
+			// set NE sprite
+		} else if (ydir > 0) {			// Facing South East
+			// set SE sprite
+			sprite_index = spr_player_se;
+		} else {						// Facing East
+			// set E sprite
 		}
-	
-		// Melee attack mechanic
-		if melee_attack {
-			state = PLAYERSTATE.ATTACK_SLASH;
-			scr_player_state_attack_slash();
+	} else {							// Facing North, South, or nowhere
+		if (ydir < 0) {					// Facing North
+			// set N sprite
+			sprite_index = spr_player_n;
+		} else if (ydir > 0) {			// Facing South
+			// set S sprite
+			sprite_index = spr_player_s;
+		} else {						// Facing nowhere
+			// set idle sprite
 		}
+	}
 	
-		// Shooting attack mechanic
-		if ranged_attack {
-			state = PLAYERSTATE.ATTACK_SHOOT;
-			scr_player_state_attack_shoot();
-		}
+	// Reload
+	if reload {
+		state = PLAYERSTATE.RELOAD;
+		scr_player_state_reload();
+	}
+	
+	// Dash mechanic
+	if dash {
+		state = PLAYERSTATE.DASH;
+		scr_player_state_dash();
+	}
+	
+	// Melee attack mechanic
+	if melee_attack {
+		state = PLAYERSTATE.ATTACK_SLASH;
+		scr_player_state_attack_slash();
+	}
+	
+	// Shooting attack mechanic
+	if ranged_attack {
+		state = PLAYERSTATE.ATTACK_SHOOT;
+		scr_player_state_attack_shoot();
 	}
 }

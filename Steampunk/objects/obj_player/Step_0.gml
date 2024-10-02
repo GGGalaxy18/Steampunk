@@ -22,6 +22,7 @@ switch (state) {
 	case PLAYERSTATE.ATTACK_SHOOT: scr_player_state_attack_shoot(); break;
 	case PLAYERSTATE.ATTACK_DASH: scr_player_state_attack_dash(); break;
 	case PLAYERSTATE.DASH: scr_player_state_dash(); break;
+	case PLAYERSTATE.RELOAD: scr_player_state_reload(); break;
 }
 
 // Have camera follow player

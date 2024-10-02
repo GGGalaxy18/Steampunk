@@ -1,13 +1,26 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 function scr_player_state_attack_shoot() {
+	
+	// Movement management
+	if ((xdir != 0) or (ydir != 0)) {
+		direction = set_iso_direction(point_direction(0, 0, xdir, ydir));	// Sets direction of player
+		var _x = lengthdir_x(move_speed, direction);
+		var _y = lengthdir_y(move_speed, direction);
+		with (obj_boundary_collision) {
+			if (check_walkable(x + _x, y + _y)) {	// TODO: Check sprite width for collision too
+				other.x += _x;
+				other.y += _y;
+				set_player_z();
+			}
+		}
+	}
+	
 	if can_shoot{
 		if current_magazine <= 0 {
-			state = PLAYERSTATE.FREE;
-			scr_reload();
+			state = PLAYERSTATE.RELOAD;
+			scr_player_state_reload();
 		} else {
-			speed = 0;
-	
 			// Start of attack
 			if (sprite_index != spr_playerShootTemp) {
 				sprite_index = spr_playerShootTemp;
@@ -26,7 +39,7 @@ function scr_player_state_attack_shoot() {
 		}
 	}
 	
-	if (animation_end()) {
+	if (animation_end() and state != PLAYERSTATE.RELOAD) {
 		sprite_index = spr_playerIdleTemp;
 		state = PLAYERSTATE.FREE;
 	}

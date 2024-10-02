@@ -27,7 +27,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"bullet_speed","filters":[],"listItems":[],"multiselect":false,"name":"bullet_speed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"4","varType":1,},
+    {"$GMObjectProperty":"v1","%Name":"bullet_speed","filters":[],"listItems":[],"multiselect":false,"name":"bullet_speed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"30","varType":1,},
     {"$GMObjectProperty":"v1","%Name":"bullet_damage","filters":[],"listItems":[],"multiselect":false,"name":"bullet_damage","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"5","varType":1,},
   ],
   "resourceType":"GMObject",
