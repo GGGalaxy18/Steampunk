@@ -1,6 +1,5 @@
 function scr_player_state_attack_slash() {
-	hspeed = 0;
-	vspeed = 0;
+	speed = 0;
 	
 	// Start of attack
 	if (sprite_index != spr_playerAttackTemp) {

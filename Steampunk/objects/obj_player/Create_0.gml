@@ -4,6 +4,7 @@ in_dash = false;
 dash_queue = [];
 
 can_attack = true;
+can_shoot = true;
 
 xdir = 0;
 ydir = 0;
@@ -24,4 +25,5 @@ right = noone;
 up = noone;
 down = noone;
 dash = noone;
-attack = noone;
+melee_attack = noone;
+ranged_attack = noone;

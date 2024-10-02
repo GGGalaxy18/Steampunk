@@ -5,7 +5,8 @@ right = keyboard_check(vk_right) or keyboard_check(ord("D"));
 up = keyboard_check(vk_up) or keyboard_check(ord("W"));
 down = keyboard_check(vk_down) or keyboard_check(ord("S"));
 dash = keyboard_check_pressed(vk_space);
-attack = mouse_check_button_pressed(mb_left);
+melee_attack = mouse_check_button_pressed(mb_left);
+ranged_attack = mouse_check_button_pressed(mb_right);
 // Ensures movement in 8 directions at a set speed (diagonal is not faster)
 xdir = right - left;
 ydir = down - up;

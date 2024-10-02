@@ -54,9 +54,14 @@ function scr_player_state_free(){
 	}
 	
 	// Melee attack mechanic
-	if attack {
+	if melee_attack {
 		state = PLAYERSTATE.ATTACK_SLASH;
 		scr_player_state_attack_slash();
 	}
-		
+	
+	// Shooting attack mechanic
+	if ranged_attack {
+		state = PLAYERSTATE.ATTACK_SHOOT;
+		scr_player_state_attack_shoot();
+	}
 }
