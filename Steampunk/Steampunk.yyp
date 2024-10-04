@@ -47,6 +47,8 @@
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_plr_bullet","path":"objects/obj_plr_bullet/obj_plr_bullet.yy",},},
     {"id":{"name":"obj_render","path":"objects/obj_render/obj_render.yy",},},
+    {"id":{"name":"obj_spawn_controller","path":"objects/obj_spawn_controller/obj_spawn_controller.yy",},},
+    {"id":{"name":"obj_spawn_location","path":"objects/obj_spawn_location/obj_spawn_location.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"scr_anim_end","path":"scripts/scr_anim_end/scr_anim_end.yy",},},
     {"id":{"name":"scr_check_dash","path":"scripts/scr_check_dash/scr_check_dash.yy",},},

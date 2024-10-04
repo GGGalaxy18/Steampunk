@@ -13,6 +13,10 @@ function scr_player_state_free(){
 			}
 		}
 	}
+	
+	if (xdir == 0) and (ydir == 0) and sprite_index != spr_playerIdleTemp {
+		sprite_index = spr_playerIdleTemp;
+	}
 		
 	// Sprite management (W sprites are flipped)
 	if (xdir < 0) {						// Facing _____ West
