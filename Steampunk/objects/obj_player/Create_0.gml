@@ -31,3 +31,13 @@ dash = noone;
 melee_attack = noone;
 ranged_attack = noone;
 reload = noone;
+
+
+//player health
+hp = player_health;
+hp_max = hp;
+
+healthbar_width = 200;
+healthbar_hieght = 24;
+healthbar_x = (320/2) - (healthbar_width/2);
+healthbar_y =  y - 150;

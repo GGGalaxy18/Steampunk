@@ -70,6 +70,8 @@
     {"id":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},},
     {"id":{"name":"spr_enemyTemp","path":"sprites/spr_enemyTemp/spr_enemyTemp.yy",},},
     {"id":{"name":"spr_groundTemp","path":"sprites/spr_groundTemp/spr_groundTemp.yy",},},
+    {"id":{"name":"spr_health","path":"sprites/spr_health/spr_health.yy",},},
+    {"id":{"name":"spr_healthbar","path":"sprites/spr_healthbar/spr_healthbar.yy",},},
     {"id":{"name":"spr_isoGroundTemp","path":"sprites/spr_isoGroundTemp/spr_isoGroundTemp.yy",},},
     {"id":{"name":"spr_player_n","path":"sprites/spr_player_n/spr_player_n.yy",},},
     {"id":{"name":"spr_player_nw","path":"sprites/spr_player_nw/spr_player_nw.yy",},},

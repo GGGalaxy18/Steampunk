@@ -29,6 +29,8 @@
     {"name":"spr_boundary_collision","order":4,"path":"sprites/spr_boundary_collision/spr_boundary_collision.yy",},
     {"name":"spr_building","order":5,"path":"sprites/spr_building/spr_building.yy",},
     {"name":"spr_bullet","order":7,"path":"sprites/spr_bullet/spr_bullet.yy",},
+    {"name":"spr_health","order":8,"path":"sprites/spr_health/spr_health.yy",},
+    {"name":"spr_healthbar","order":9,"path":"sprites/spr_healthbar/spr_healthbar.yy",},
     {"name":"spr_isoGroundTemp","order":3,"path":"sprites/spr_isoGroundTemp/spr_isoGroundTemp.yy",},
     {"name":"spr_player_n","order":5,"path":"sprites/spr_player_n/spr_player_n.yy",},
     {"name":"spr_player_nw","order":11,"path":"sprites/spr_player_nw/spr_player_nw.yy",},
