@@ -85,7 +85,6 @@
     {"id":{"name":"spr_playerReloadTemp","path":"sprites/spr_playerReloadTemp/spr_playerReloadTemp.yy",},},
     {"id":{"name":"spr_playerShootTemp","path":"sprites/spr_playerShootTemp/spr_playerShootTemp.yy",},},
     {"id":{"name":"spr_tile_map","path":"sprites/spr_tile_map/spr_tile_map.yy",},},
-    {"id":{"name":"ts_tempTiles","path":"tilesets/ts_tempTiles/ts_tempTiles.yy",},},
     {"id":{"name":"ts_tile_map","path":"tilesets/ts_tile_map/ts_tile_map.yy",},},
   ],
   "resourceType":"GMProject",
