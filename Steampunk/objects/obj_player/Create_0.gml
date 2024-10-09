@@ -41,3 +41,8 @@ healthbar_width = 200;
 healthbar_hieght = 24;
 healthbar_x = (320/2) - (healthbar_width/2);
 healthbar_y =  y - 150;
+
+//player ability gauges
+gauge_x = 1300;
+gauge_y = 700;
+
