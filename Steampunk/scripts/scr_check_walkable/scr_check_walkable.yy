@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"scr_check_walkable",
   "parent":{
-    "name":"PlayerScripts",
-    "path":"folders/Scripts/PlayerScripts.yy",
+    "name":"IsometricScriptStuff",
+    "path":"folders/Scripts/IsometricScriptStuff.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

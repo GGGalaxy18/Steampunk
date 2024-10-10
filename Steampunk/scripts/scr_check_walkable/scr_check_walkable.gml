@@ -15,3 +15,10 @@ function set_player_z() {
 	var _tile_data = global.the_map[# _tX, _tY];
 	other.z_offset = _tile_data[TILE.Z];
 }
+
+function get_z(_x, _y) {
+	var _tx = room_to_tile_x(_x, _y);
+	var _ty = room_to_tile_y(_x, _y);
+	var _tile_data = global.the_map[# _tX, _tY];
+	return _tile_data[TILE.Z];
+}
