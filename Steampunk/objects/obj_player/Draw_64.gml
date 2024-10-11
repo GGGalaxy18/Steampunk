@@ -1,6 +1,7 @@
 /// @description GUI
 // You can write your code in this editor
-draw_sprite_stretched(spr_health,0,healthbar_x,healthbar_y,(hp/hp_max)*healthbar_width, healthbar_hieght);
+var _healthbar_xoffset = 20;
+draw_sprite_stretched(spr_health,0,healthbar_x,healthbar_y,(hp/hp_max)*(healthbar_width - _healthbar_xoffset), healthbar_hieght);
 draw_sprite(spr_healthbar,0,healthbar_x,healthbar_y);
 
 //ability gauges

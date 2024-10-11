@@ -40,7 +40,7 @@ function scr_player_state_attack_shoot() {
 	}
 	
 	if (animation_end() and state != PLAYERSTATE.RELOAD) {
-		sprite_index = spr_playerIdleTemp;
+		sprite_index = spr_player_idle_s;
 		state = PLAYERSTATE.FREE;
 	}
 }

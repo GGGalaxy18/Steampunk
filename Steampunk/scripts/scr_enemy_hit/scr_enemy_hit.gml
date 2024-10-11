@@ -4,11 +4,12 @@ function scr_enemy_hit(_damage, _dir){
 		if (hp > 0) {
 			state = ENEMYSTATE.HIT;
 			can_be_hit = false;
-			alarm[0] = hit_cooldown;
 			is_hit = true;
 			direction = _dir;
+			scr_enemy_state_hit();
 		} else {
 			state = ENEMYSTATE.DEAD;
+			scr_enemy_state_dead();
 		}
 	}
 }

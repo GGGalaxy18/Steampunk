@@ -13,7 +13,12 @@ xdir = right - left;
 ydir = down - up;
 
 // Makes player move with environment sprites
-sprite_set_offset(sprite_index, sprite_get_height(sprite_index)/2, sprite_get_height(sprite_index)/2 - z_offset);
+if previous_sprite != sprite_index {
+	sprite_set_offset(previous_sprite, sprite_get_xoffset(previous_sprite), base_y_offset);
+	previous_sprite = sprite_index;
+	base_y_offset = sprite_get_yoffset(sprite_index);
+}
+sprite_set_offset(sprite_index, sprite_get_xoffset(sprite_index), base_y_offset - z_offset);
 
 // State Machine
 switch (state) {
@@ -22,6 +27,8 @@ switch (state) {
 	case PLAYERSTATE.ATTACK_SHOOT: scr_player_state_attack_shoot(); break;
 	case PLAYERSTATE.ATTACK_DASH: scr_player_state_attack_dash(); break;
 	case PLAYERSTATE.DASH: scr_player_state_dash(); break;
+	case PLAYERSTATE.DEAD: scr_player_state_dead(); break;
+	case PLAYERSTATE.HIT: scr_player_state_hit(); break;
 	case PLAYERSTATE.RELOAD: scr_player_state_reload(); break;
 }
 

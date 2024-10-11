@@ -1,3 +1,5 @@
 /// @description knockback duration
-state = ENEMYSTATE.PURSUIT;
-scr_enemy_state_pursuit();
+if state == ENEMYSTATE.HIT {
+	state = ENEMYSTATE.PURSUIT;
+	scr_enemy_state_pursuit();
+}

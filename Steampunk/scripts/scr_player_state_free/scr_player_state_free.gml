@@ -14,40 +14,77 @@ function scr_player_state_free(){
 		}
 	}
 	
-	if (xdir == 0) and (ydir == 0) and sprite_index != spr_playerIdleTemp {
-		sprite_index = spr_playerIdleTemp;
-	}
-		
-	// Sprite management (W sprites are flipped)
-	if (xdir < 0) {						// Facing _____ West
-		image_xscale = -1 * abs(image_xscale);	// Set sprite to face left
-		if (ydir < 0) {					// Facing North West
-			// set NW sprite
-		} else if (ydir > 0) {			// Facing South West
-			// set SW sprite
-			sprite_index = spr_player_se;
-		} else {						// Facing West
-			// set W sprite
+	// Idle sprite management (W sprites are flipped)
+	if (xdir == 0) and (ydir == 0) {
+		if (xdir < 0) {						// Facing _____ West
+			image_xscale = -1 * abs(image_xscale);	// Set sprite to face left
+			if (ydir < 0) {					// Facing North West
+				// set NE sprite
+				sprite_index = spr_player_ne;
+			} else if (ydir > 0) {			// Facing South West
+				// set SW sprite
+				sprite_index = spr_player_se;
+			} else {						// Facing West
+				// set E sprite
+				sprite_index = spr_player_e;
+			}
+		} else if (xdir > 0) {				// Facing _____ East
+			image_xscale = 1 * abs(image_xscale);	// Set sprite to face right
+			if (ydir < 0) {					// Facing North East
+				// set NE sprite
+				sprite_index = spr_player_ne;
+			} else if (ydir > 0) {			// Facing South East
+				// set SE sprite
+				sprite_index = spr_player_se;
+			} else {						// Facing East
+				// set E sprite
+				sprite_index = spr_player_e;
+			}
+		} else {							// Facing North, South, or nowhere
+			if (ydir < 0) {					// Facing North
+				// set N sprite
+				sprite_index = spr_player_n;
+			} else if (ydir > 0) {			// Facing South
+				// set S sprite
+				sprite_index = spr_player_idle_s;
+			} else {						// Facing nowhere (shouldn't be reached)
+				// set idle sprite
+				sprite_index = spr_player_idle_s;
+			}
 		}
-	} else if (xdir > 0) {				// Facing _____ East
-		image_xscale = 1 * abs(image_xscale);	// Set sprite to face right
-		if (ydir < 0) {					// Facing North East
-			// set NE sprite
-		} else if (ydir > 0) {			// Facing South East
-			// set SE sprite
-			sprite_index = spr_player_se;
-		} else {						// Facing East
-			// set E sprite
-		}
-	} else {							// Facing North, South, or nowhere
-		if (ydir < 0) {					// Facing North
-			// set N sprite
-			sprite_index = spr_player_n;
-		} else if (ydir > 0) {			// Facing South
-			// set S sprite
-			sprite_index = spr_player_s;
-		} else {						// Facing nowhere
-			// set idle sprite
+	} else {	// Walking sprite management (W sprites are flipped)
+		if (xdir < 0) {						// Facing _____ West
+			image_xscale = -1 * abs(image_xscale);	// Set sprite to face left
+			if (ydir < 0) {					// Facing North West
+				// set NE sprite
+				sprite_index = spr_player_walk_ne;
+			} else if (ydir > 0) {			// Facing South West
+				// set SE sprite
+				sprite_index = spr_player_walk_se;
+			} else {						// Facing West
+				// set E sprite
+				sprite_index = spr_player_walk_e;
+			}
+		} else if (xdir > 0) {				// Facing _____ East
+			image_xscale = 1 * abs(image_xscale);	// Set sprite to face right
+			if (ydir < 0) {					// Facing North East
+				// set NE sprite
+				sprite_index = spr_player_walk_ne;
+			} else if (ydir > 0) {			// Facing South East
+				// set SE sprite
+				sprite_index = spr_player_walk_se;
+			} else {						// Facing East
+				// set E sprite
+				sprite_index = spr_player_walk_e;
+			}
+		} else {							// Facing North, South, or nowhere
+			if (ydir < 0) {					// Facing North
+				// set N sprite
+				sprite_index = spr_player_walk_n;
+			} else if (ydir > 0) {			// Facing South
+				// set S sprite
+				sprite_index = spr_player_walk_s;
+			}
 		}
 	}
 	

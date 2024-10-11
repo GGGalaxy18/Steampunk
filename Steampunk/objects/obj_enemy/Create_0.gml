@@ -5,6 +5,7 @@ blend = image_blend;
 blend_time = 0;
 
 can_be_hit = true;
+can_attack = true;
 is_hit = false;
 is_dead = false;
 change_idle_roam = false;

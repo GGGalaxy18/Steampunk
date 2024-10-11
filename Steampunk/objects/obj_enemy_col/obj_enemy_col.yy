@@ -8,8 +8,8 @@
   "name":"obj_enemy_col",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"EnemyRelated",
+    "path":"folders/Objects/EnemyRelated.yy",
   },
   "parentObjectId":null,
   "persistent":false,

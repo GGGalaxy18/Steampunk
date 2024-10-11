@@ -1,2 +1,1 @@
-/// @description pathfinding check
-check_path = true;
+/// @description nil

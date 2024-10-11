@@ -52,7 +52,7 @@ function scr_player_state_dash() {
 			}
 		} else {											// Return to free state
 			state = PLAYERSTATE.FREE;
-			sprite_index = spr_playerIdleTemp;
+			sprite_index = spr_player_idle_s;
 		}
 	} else if (((xdir != 0) or (ydir != 0)) and dash and array_length(dash_queue) == 0) {
 		direction = set_iso_direction(point_direction(0, 0, xdir, ydir));

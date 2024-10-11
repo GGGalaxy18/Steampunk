@@ -52,13 +52,13 @@ function scr_enemy_state_pursuit() {
 		state = ENEMYSTATE.SEARCHING;
 		scr_enemy_state_searching();
 	}
-	/*
-	// Dash mechanic
-	if dash {
-		state = PLAYERSTATE.DASH;
-		scr_player_state_dash();
-	}
 	
+	// Dash mechanic
+	if point_distance(x, y, obj_player.x, obj_player.y) < 64 {
+		state = ENEMYSTATE.ATTACK;
+		scr_enemy_state_attack();
+	}
+	/*
 	// Melee attack mechanic
 	if melee_attack {
 		state = PLAYERSTATE.ATTACK_SLASH;
