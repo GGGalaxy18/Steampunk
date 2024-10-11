@@ -1,3 +1,5 @@
 /// @description follow enemy
-x = enemy_instance.x;
-y = enemy_instance.y;
+if (instance_exists(enemy_instance)) {
+	x = enemy_instance.x;
+	y = enemy_instance.y;
+} else instance_destroy();

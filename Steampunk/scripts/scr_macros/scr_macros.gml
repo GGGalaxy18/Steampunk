@@ -5,6 +5,15 @@
 #macro ROOM_W 2560
 #macro ROOM_H 2560
 
+#macro E 0
+#macro NE 26.57
+#macro N 90
+#macro NW 153.43
+#macro W 180
+#macro SW 206.57
+#macro S 270
+#macro SE 333.43
+
 enum TILE
 {
 	SPRITE = 0,
@@ -28,7 +37,6 @@ enum ENEMYSTATE
 	DEAD,
 	FLEE,
 	HIT,
-	KNOCKBACK,
 	PURSUIT,
 	SEARCHING
 }

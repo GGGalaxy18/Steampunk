@@ -15,5 +15,12 @@ for (var tX = 0; tX < MAP_W; tX++) {
 		}
 		
 		if (_tile_index != 0) draw_sprite(spr_isoGroundTemp, _tile_index-1, _room_x, _room_y + _tile_z);
+		
+		/*
+		// Remove comments to view boundary
+		if global.col_the_map[# tX, tY] == 1 {
+			draw_sprite(spr_isoGroundTemp, 3, _room_x, _room_y + _tile_z);
+		}
+		*/
 	}
 }

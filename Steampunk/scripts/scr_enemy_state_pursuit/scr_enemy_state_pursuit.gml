@@ -1,11 +1,12 @@
 function scr_enemy_state_pursuit() {
-	// Movement management
-	
-	// Changes direction
-	if (not check_walkable(x + lengthdir_x(speed, direction), y + lengthdir_y(speed, direction))) {
-		do {
-			direction = get_new_direction();
-		} until check_walkable(x +  lengthdir_x(speed, direction), y + lengthdir_y(speed, direction));
+	if (point_distance(obj_player.x, obj_player.y, x, y) > 20) {
+		speed = 0;
+		with (col_id) {
+			mp_potential_step_object(obj_player.x, obj_player.y, other.chase_speed, obj_boundary);
+			speed = 0;
+			other.x = x;
+			other.y = y;
+		}
 	}
 	
 	xdir = lengthdir_x(1, direction);
@@ -43,15 +44,15 @@ function scr_enemy_state_pursuit() {
 			// set idle sprite
 		}
 	}
-	/*
+	
 	// Load other states
 	
-	// Reload
-	if reload {
-		state = PLAYERSTATE.RELOAD;
-		scr_player_state_reload();
+	// Searching
+	if point_distance(x, y, obj_player.x, obj_player.y) > 384 {
+		state = ENEMYSTATE.SEARCHING;
+		scr_enemy_state_searching();
 	}
-	
+	/*
 	// Dash mechanic
 	if dash {
 		state = PLAYERSTATE.DASH;

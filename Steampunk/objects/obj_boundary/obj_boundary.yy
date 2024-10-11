@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_building1",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_boundary",
+  "eventList":[],
   "managed":true,
-  "name":"obj_building1",
+  "name":"obj_boundary",
   "overriddenProperties":[],
   "parent":{
     "name":"Environment",
@@ -30,9 +28,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_building",
-    "path":"sprites/spr_building/spr_building.yy",
+    "name":"spr_boundary",
+    "path":"sprites/spr_boundary/spr_boundary.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

@@ -13,7 +13,7 @@ xdir = right - left;
 ydir = down - up;
 
 // Makes player move with environment sprites
-//sprite_set_offset(sprite_index, sprite_get_height(sprite_index)/2, sprite_get_height(sprite_index)/2 - z_offset);
+sprite_set_offset(sprite_index, sprite_get_height(sprite_index)/2, sprite_get_height(sprite_index)/2 - z_offset);
 
 // State Machine
 switch (state) {

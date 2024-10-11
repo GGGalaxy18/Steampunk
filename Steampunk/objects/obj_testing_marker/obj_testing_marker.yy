@@ -1,13 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_render",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":12,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_testing_marker",
+  "eventList":[],
   "managed":true,
-  "name":"obj_render",
+  "name":"obj_testing_marker",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -31,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_boundary_collision",
+    "path":"sprites/spr_boundary_collision/spr_boundary_collision.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

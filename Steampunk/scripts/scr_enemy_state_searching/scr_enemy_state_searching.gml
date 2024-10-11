@@ -63,15 +63,15 @@ function scr_enemy_state_searching() {
 			// set idle sprite
 		}
 	}
-	/*
+	
 	// Load other states
 	
-	// Reload
-	if reload {
-		state = PLAYERSTATE.RELOAD;
-		scr_player_state_reload();
+	// Pursuit
+	if point_distance(x, y, obj_player.x, obj_player.y) < 128 {
+		state = ENEMYSTATE.PURSUIT;
+		scr_enemy_state_pursuit();
 	}
-	
+	/*
 	// Dash mechanic
 	if dash {
 		state = PLAYERSTATE.DASH;

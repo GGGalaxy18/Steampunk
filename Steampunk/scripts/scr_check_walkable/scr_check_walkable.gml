@@ -6,7 +6,16 @@ function check_walkable(_x, _y) {
 	var _tile_data = global.the_map[# _tX, _tY];
 	var _tile_index = _tile_data[TILE.SPRITE];
 	
-	return array_contains([1, 2], _tile_index);
+	return array_contains(global.walkable, _tile_index);
+}
+
+function check_tile_walkable(_tX, _tY) {
+	// Check if future tile exists
+	if not (0 <_tX and _tX < MAP_W) or not (0 < _tY and _tY < MAP_H) { return false; }
+	var _tile_data = global.the_map[# _tX, _tY];
+	var _tile_index = _tile_data[TILE.SPRITE];
+	
+	return array_contains(global.walkable, _tile_index);
 }
 
 function set_player_z() {
