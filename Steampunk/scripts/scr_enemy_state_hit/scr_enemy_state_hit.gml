@@ -2,6 +2,7 @@ function scr_enemy_state_hit() {
 	if is_hit {
 		alarm[0] = hit_cooldown;
 		alarm[3] = knockback_duration;
+		alarm[4] = attack_cooldown;
 		speed = knockback_speed;
 		blend = c_red;
 		blend_time = knockback_duration - 1;

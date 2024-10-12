@@ -9,8 +9,8 @@
   "name":"obj_plr_bullet",
   "overriddenProperties":[],
   "parent":{
-    "name":"PlayerRelated",
-    "path":"folders/Objects/PlayerRelated.yy",
+    "name":"Weapons",
+    "path":"folders/Objects/PlayerRelated/Weapons.yy",
   },
   "parentObjectId":null,
   "persistent":false,

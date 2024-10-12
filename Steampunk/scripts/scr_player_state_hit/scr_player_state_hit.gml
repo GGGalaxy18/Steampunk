@@ -19,5 +19,4 @@ function scr_player_state_hit() {
 		blend = image_blend;
 		speed = 0;
 	}
-	show_debug_message("ONGOING: " + string(blend_time));
 }
