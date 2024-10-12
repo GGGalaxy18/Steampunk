@@ -52,6 +52,7 @@
     {"name":"scr_set_iso_direction","order":3,"path":"scripts/scr_set_iso_direction/scr_set_iso_direction.yy",},
     {"name":"scr_tile_to_room","order":2,"path":"scripts/scr_tile_to_room/scr_tile_to_room.yy",},
     {"name":"spr_ability_dial","order":10,"path":"sprites/spr_ability_dial/spr_ability_dial.yy",},
+    {"name":"spr_background","order":7,"path":"sprites/spr_background/spr_background.yy",},
     {"name":"spr_boundary_collision","order":4,"path":"sprites/spr_boundary_collision/spr_boundary_collision.yy",},
     {"name":"spr_boundary","order":6,"path":"sprites/spr_boundary/spr_boundary.yy",},
     {"name":"spr_building","order":5,"path":"sprites/spr_building/spr_building.yy",},

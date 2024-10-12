@@ -95,6 +95,7 @@
     {"id":{"name":"scr_tile_to_room","path":"scripts/scr_tile_to_room/scr_tile_to_room.yy",},},
     {"id":{"name":"sh_shader","path":"shaders/sh_shader/sh_shader.yy",},},
     {"id":{"name":"spr_ability_dial","path":"sprites/spr_ability_dial/spr_ability_dial.yy",},},
+    {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},},
     {"id":{"name":"spr_boundary_collision","path":"sprites/spr_boundary_collision/spr_boundary_collision.yy",},},
     {"id":{"name":"spr_boundary","path":"sprites/spr_boundary/spr_boundary.yy",},},
     {"id":{"name":"spr_building","path":"sprites/spr_building/spr_building.yy",},},
