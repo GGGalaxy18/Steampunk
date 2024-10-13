@@ -1,8 +1,8 @@
 {
   "FolderOrderSettings":[
+    {"name":"Dialogue","order":14,"path":"folders/Objects/Dialogue.yy",},
     {"name":"EnemyRelated","order":13,"path":"folders/Objects/EnemyRelated.yy",},
     {"name":"Environment","order":6,"path":"folders/Objects/Environment.yy",},
-    {"name":"Dialogue","order":14,"path":"folders/Objects/Dialogue.yy",},
     {"name":"PlayerRelated","order":5,"path":"folders/Objects/PlayerRelated.yy",},
     {"name":"Weapons","order":3,"path":"folders/Objects/PlayerRelated/Weapons.yy",},
     {"name":"EnemyScripts","order":12,"path":"folders/Scripts/EnemyScripts.yy",},

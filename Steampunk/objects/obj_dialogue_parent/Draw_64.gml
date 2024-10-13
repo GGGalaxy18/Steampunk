@@ -35,4 +35,5 @@ if (showing_dialog) {
 	draw_text_ext(_text_x, _text_y, current_dialog.message, 16, display_get_gui_width() - 192);
 	
 	alpha = lerp(alpha, 1, 0.06);
+	draw_set_alpha(1);
 }
