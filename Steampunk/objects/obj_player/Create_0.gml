@@ -35,7 +35,6 @@ y = _rY;
 previous_sprite = sprite_index;
 base_y_offset = sprite_get_yoffset(sprite_index);
 
-hit_by_attack= ds_list_create();	// Tracks enemies hit during anim sequence (prevents multi hits)
 state = PLAYERSTATE.FREE;
 
 // control declarations

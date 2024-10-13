@@ -5,7 +5,6 @@ function scr_player_state_attack_slash() {
 	if (sprite_index != spr_player_s) {
 		sprite_index = spr_player_s;
 		image_index = 0;
-		ds_list_clear(hit_by_attack);
 	}
 	
 	// Set sprite to face left or right
