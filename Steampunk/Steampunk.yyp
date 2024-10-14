@@ -108,6 +108,7 @@
     {"id":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},},
     {"id":{"name":"spr_enemy_slash","path":"sprites/spr_enemy_slash/spr_enemy_slash.yy",},},
     {"id":{"name":"spr_enemyTemp","path":"sprites/spr_enemyTemp/spr_enemyTemp.yy",},},
+    {"id":{"name":"spr_enemywalk","path":"sprites/spr_enemywalk/spr_enemywalk.yy",},},
     {"id":{"name":"spr_health","path":"sprites/spr_health/spr_health.yy",},},
     {"id":{"name":"spr_healthbar","path":"sprites/spr_healthbar/spr_healthbar.yy",},},
     {"id":{"name":"spr_isoGroundTemp","path":"sprites/spr_isoGroundTemp/spr_isoGroundTemp.yy",},},

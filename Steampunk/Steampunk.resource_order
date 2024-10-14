@@ -61,6 +61,7 @@
     {"name":"spr_boundary","order":6,"path":"sprites/spr_boundary/spr_boundary.yy",},
     {"name":"spr_building","order":5,"path":"sprites/spr_building/spr_building.yy",},
     {"name":"spr_enemy_slash","order":1,"path":"sprites/spr_enemy_slash/spr_enemy_slash.yy",},
+    {"name":"spr_enemywalk","order":3,"path":"sprites/spr_enemywalk/spr_enemywalk.yy",},
     {"name":"spr_health","order":6,"path":"sprites/spr_health/spr_health.yy",},
     {"name":"spr_healthbar","order":9,"path":"sprites/spr_healthbar/spr_healthbar.yy",},
     {"name":"spr_isoGroundTemp","order":3,"path":"sprites/spr_isoGroundTemp/spr_isoGroundTemp.yy",},
