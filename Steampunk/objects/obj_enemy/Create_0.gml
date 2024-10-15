@@ -1,6 +1,9 @@
 /// @description variable definitions
 speed = roam_speed;
 
+image_xscale = .5;
+image_yscale = .5;
+
 blend = image_blend;
 blend_time = 0;
 

@@ -1,4 +1,6 @@
 function scr_enemy_state_pursuit() {
+	var _orig_x = x;
+	var _orig_y = y;
 	if (point_distance(obj_player.x, obj_player.y, x, y) > 20) {
 		speed = 0;
 		with (col_id) {
@@ -9,6 +11,7 @@ function scr_enemy_state_pursuit() {
 		}
 	}
 	
+	direction = point_direction(_orig_x, _orig_y, x, y);
 	xdir = lengthdir_x(1, direction);
 	ydir = lengthdir_y(1, direction);
 	
