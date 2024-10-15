@@ -4,6 +4,6 @@
 // Inherit the parent event
 event_inherited();
 
-add(spr_player_pic, "ijehgkjsdhgkljdhfkj");
-add(spr_player_pic, "This is a piece of text");
-add(spr_player_pic, "That plays one after another");
+add(spr_player_pic, "Ambrose: These damned human experiments get old.");
+add(spr_player_pic, "Ambrose: Recently there's been human, gear hybrids crawling around the streets.");
+add(spr_player_pic, "Ambrose: I have a good idea who has been doing this.");

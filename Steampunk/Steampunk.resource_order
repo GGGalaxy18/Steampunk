@@ -34,6 +34,7 @@
     {"name":"obj_testing_marker","order":11,"path":"objects/obj_testing_marker/obj_testing_marker.yy",},
     {"name":"Level2","order":1,"path":"rooms/Level2/Level2.yy",},
     {"name":"Level3","order":2,"path":"rooms/Level3/Level3.yy",},
+    {"name":"Level4","order":3,"path":"rooms/Level4/Level4.yy",},
     {"name":"scr_anim_end","order":2,"path":"scripts/scr_anim_end/scr_anim_end.yy",},
     {"name":"scr_check_dash","order":1,"path":"scripts/scr_check_dash/scr_check_dash.yy",},
     {"name":"scr_check_walkable","order":4,"path":"scripts/scr_check_walkable/scr_check_walkable.yy",},
