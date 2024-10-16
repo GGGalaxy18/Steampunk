@@ -34,3 +34,12 @@ switch (state) {
 
 // Have camera follow player
 camera_set_view_pos(view_camera[0], x-camera_get_view_width(view_camera[0])/2, y-camera_get_view_height(view_camera[0])/2);
+
+// Sound Implementation
+if dash{
+audio_play_sound(snd_dash,10,false)	
+}
+
+if melee_attack {
+audio_play_sound(snd_sword,10,false)	
+}
