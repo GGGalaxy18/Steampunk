@@ -75,6 +75,8 @@
     {"id":{"name":"Level3","path":"rooms/Level3/Level3.yy",},},
     {"id":{"name":"Level4","path":"rooms/Level4/Level4.yy",},},
     {"id":{"name":"Level5","path":"rooms/Level5/Level5.yy",},},
+    {"id":{"name":"level6","path":"rooms/level6/level6.yy",},},
+    {"id":{"name":"level7","path":"rooms/level7/level7.yy",},},
     {"id":{"name":"scr_anim_end","path":"scripts/scr_anim_end/scr_anim_end.yy",},},
     {"id":{"name":"scr_check_dash","path":"scripts/scr_check_dash/scr_check_dash.yy",},},
     {"id":{"name":"scr_check_walkable","path":"scripts/scr_check_walkable/scr_check_walkable.yy",},},
@@ -151,6 +153,8 @@
     {"roomId":{"name":"Level3","path":"rooms/Level3/Level3.yy",},},
     {"roomId":{"name":"Level4","path":"rooms/Level4/Level4.yy",},},
     {"roomId":{"name":"Level5","path":"rooms/Level5/Level5.yy",},},
+    {"roomId":{"name":"level6","path":"rooms/level6/level6.yy",},},
+    {"roomId":{"name":"level7","path":"rooms/level7/level7.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
