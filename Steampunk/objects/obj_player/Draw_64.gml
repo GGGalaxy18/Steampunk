@@ -12,7 +12,6 @@ if not in_dialog {
 	// first dash
 	draw_sprite_ext(spr_ability_dial_bar, 0, gauge_x, gauge_y-9, 1, 1, _dash_rotation, c_white, 1);
 	draw_sprite(spr_ability_dial,0,gauge_x,gauge_y);
-	show_debug_message(array_length(dash_queue));
 
 	// second dash
 	if not (array_length(dash_queue) == 2 and dash_queue[1] == -1) _dash_rotation = -180;

@@ -48,7 +48,6 @@ reload upon firing all bullets the audio will loop itself all at once
 causing a not so pleasant noise EX: using in_reload or state = PLAYERSTATE.RELOAD */
 if reload{
 audio_play_sound(snd_reload,10,false)
-	
 }
 
 if ranged_attack{
