@@ -6,7 +6,7 @@ global.the_map = ds_grid_create(MAP_W, MAP_H);
 // Creates collision map
 global.col_the_map = ds_grid_create(MAP_W, MAP_H);
 // Set walkable tiles
-global.walkable = [1, 2];
+global.walkable = [1, 2, 3, 4];
 
 var _tile_map = layer_tilemap_get_id("Map");
 
