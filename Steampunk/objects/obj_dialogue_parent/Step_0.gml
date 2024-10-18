@@ -1,6 +1,8 @@
 /// @description 
+obj_player.in_dialog = true;
 if (not showing_dialog) {
 	if (count() <= 0) {
+		obj_player.in_dialog = false;
 		instance_destroy();
 		return;
 	}
