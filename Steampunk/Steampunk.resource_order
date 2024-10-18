@@ -91,6 +91,7 @@
     {"name":"spr_playerIdlenw","order":1,"path":"sprites/spr_playerIdlenw/spr_playerIdlenw.yy",},
     {"name":"spr_playerReloadTemp","order":2,"path":"sprites/spr_playerReloadTemp/spr_playerReloadTemp.yy",},
     {"name":"spr_playerShootTemp","order":3,"path":"sprites/spr_playerShootTemp/spr_playerShootTemp.yy",},
+    {"name":"spr_playervineattack","order":4,"path":"sprites/spr_playervineattack/spr_playervineattack.yy",},
     {"name":"spr_rangeattack","order":6,"path":"sprites/spr_rangeattack/spr_rangeattack.yy",},
     {"name":"spr_sword","order":1,"path":"sprites/spr_sword/spr_sword.yy",},
     {"name":"spr_tile_map","order":4,"path":"sprites/spr_tile_map/spr_tile_map.yy",},

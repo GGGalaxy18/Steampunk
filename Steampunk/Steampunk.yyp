@@ -144,6 +144,7 @@
     {"id":{"name":"spr_playerIdlenw","path":"sprites/spr_playerIdlenw/spr_playerIdlenw.yy",},},
     {"id":{"name":"spr_playerReloadTemp","path":"sprites/spr_playerReloadTemp/spr_playerReloadTemp.yy",},},
     {"id":{"name":"spr_playerShootTemp","path":"sprites/spr_playerShootTemp/spr_playerShootTemp.yy",},},
+    {"id":{"name":"spr_playervineattack","path":"sprites/spr_playervineattack/spr_playervineattack.yy",},},
     {"id":{"name":"spr_rangeattack","path":"sprites/spr_rangeattack/spr_rangeattack.yy",},},
     {"id":{"name":"spr_sword","path":"sprites/spr_sword/spr_sword.yy",},},
     {"id":{"name":"spr_tile_map","path":"sprites/spr_tile_map/spr_tile_map.yy",},},
