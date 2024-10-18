@@ -8,3 +8,4 @@ if hit_by_attack {
 		}
 	}
 }
+audio_play_sound(snd_player_hurt,10,false)
