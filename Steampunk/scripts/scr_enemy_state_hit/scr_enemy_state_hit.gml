@@ -1,6 +1,8 @@
 function scr_enemy_state_hit() {
 	if is_hit {
-		alarm[0] = hit_cooldown;
+		if ranged_hit_cooldown == -1 { alarm[0] = hit_cooldown; }
+		else { alarm[0] = ranged_hit_cooldown; }
+		ranged_hit_cooldown = -1;
 		alarm[3] = knockback_duration;
 		alarm[4] = attack_cooldown;
 		speed = knockback_speed;

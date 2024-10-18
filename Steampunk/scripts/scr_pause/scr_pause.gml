@@ -1,0 +1,7 @@
+function pause() {
+	
+}
+
+function unpause() {
+	
+}

@@ -61,5 +61,7 @@ healthbar_y =  y - 150;
 gauge_x = 1300;
 gauge_y = 700;
 
-// scrap counter
+// scrap stuff
 num_scrap = 0;
+
+in_dialog = false;

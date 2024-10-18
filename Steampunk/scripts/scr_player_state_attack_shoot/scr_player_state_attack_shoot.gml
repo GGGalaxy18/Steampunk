@@ -18,8 +18,10 @@ function scr_player_state_attack_shoot() {
 	
 	if can_shoot{
 		if current_magazine <= 0 {
-			state = PLAYERSTATE.RELOAD;
-			scr_player_state_reload();
+			if num_scrap > 0 {
+				state = PLAYERSTATE.RELOAD;
+				scr_player_state_reload();
+			}
 		} else {
 			// Start of attack
 			if (sprite_index != spr_playerShootTemp) {

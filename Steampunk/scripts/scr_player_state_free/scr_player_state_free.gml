@@ -89,7 +89,7 @@ function scr_player_state_free(){
 	}
 	
 	// Reload
-	if reload {
+	if reload and num_scrap > 0 {
 		state = PLAYERSTATE.RELOAD;
 		scr_player_state_reload();
 	}

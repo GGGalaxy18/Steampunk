@@ -13,20 +13,23 @@ function scr_player_state_reload() {
 			}
 		}
 	}
+		
+	// Start of reload
+	if (sprite_index != spr_playerReloadTemp) {
+		sprite_index = spr_playerReloadTemp;
+		image_index = 0;
+	}
+	
+	// Set sprite to face left or right
+	if lengthdir_x(1, point_direction(x, y, mouse_x, mouse_y)) < 0 {
+		image_xscale = -1 * abs(image_xscale);
+	} else { image_xscale = 1 * abs(image_xscale); }
 	
 	if not alarm_get(5) > 0 {
 		alarm[5] = ranged_reload;
 		in_reload = true;
-		
-		// Start of attack
-		if (sprite_index != spr_playerReloadTemp) {
-			sprite_index = spr_playerReloadTemp;
-			image_index = 0;
-		}
-	
-		// Set sprite to face left or right
-		if lengthdir_x(1, point_direction(x, y, mouse_x, mouse_y)) < 0 {
-			image_xscale = -1 * abs(image_xscale);
-		} else { image_xscale = 1 * abs(image_xscale); }
+		var _scrap_struct = { num_scrap : 1 }
+		instance_create_depth(x, y, 4, obj_scrap_remove, _scrap_struct);
+		obj_player.num_scrap--;
 	}
 }
