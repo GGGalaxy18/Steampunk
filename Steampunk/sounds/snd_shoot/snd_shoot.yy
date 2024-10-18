@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"snd_temp_shoot",
+  "%Name":"snd_shoot",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":2.175714,
-  "name":"snd_temp_shoot",
+  "duration":1.622812,
+  "name":"snd_shoot",
   "parent":{
     "name":"Sounds",
     "path":"folders/Sounds.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_temp_shoot.wav",
+  "soundFile":"snd_shoot.wav",
   "type":0,
-  "volume":0.5,
+  "volume":0.51,
 }

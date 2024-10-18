@@ -52,5 +52,5 @@ audio_play_sound(snd_reload,10,false)
 }
 
 if ranged_attack{
-audio_play_sound(snd_temp_shoot,10,false)
+audio_play_sound(snd_shoot,10,false)
 }
