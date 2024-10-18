@@ -67,6 +67,7 @@
     {"name":"snd_level","order":3,"path":"sounds/snd_level/snd_level.yy",},
     {"name":"snd_player_hurt","order":5,"path":"sounds/snd_player_hurt/snd_player_hurt.yy",},
     {"name":"snd_reload","order":4,"path":"sounds/snd_reload/snd_reload.yy",},
+    {"name":"snd_scrap","order":7,"path":"sounds/snd_scrap/snd_scrap.yy",},
     {"name":"snd_shoot","order":6,"path":"sounds/snd_shoot/snd_shoot.yy",},
     {"name":"snd_sword","order":2,"path":"sounds/snd_sword/snd_sword.yy",},
     {"name":"spr_ability_dial_bar","order":13,"path":"sprites/spr_ability_dial_bar/spr_ability_dial_bar.yy",},

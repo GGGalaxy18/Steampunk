@@ -112,6 +112,7 @@
     {"id":{"name":"snd_level","path":"sounds/snd_level/snd_level.yy",},},
     {"id":{"name":"snd_player_hurt","path":"sounds/snd_player_hurt/snd_player_hurt.yy",},},
     {"id":{"name":"snd_reload","path":"sounds/snd_reload/snd_reload.yy",},},
+    {"id":{"name":"snd_scrap","path":"sounds/snd_scrap/snd_scrap.yy",},},
     {"id":{"name":"snd_shoot","path":"sounds/snd_shoot/snd_shoot.yy",},},
     {"id":{"name":"snd_sword","path":"sounds/snd_sword/snd_sword.yy",},},
     {"id":{"name":"spr_ability_dial_bar","path":"sprites/spr_ability_dial_bar/spr_ability_dial_bar.yy",},},

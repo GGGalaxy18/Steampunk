@@ -9,3 +9,4 @@ if point_distance(x, y, obj_player.x, obj_player.y) <= pickup_distance {
 	obj_player.num_scrap += _scrap_gained;
 	instance_destroy();
 }
+audio_play_sound(snd_scrap,10,false);
