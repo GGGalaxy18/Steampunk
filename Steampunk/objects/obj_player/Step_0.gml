@@ -34,22 +34,3 @@ switch (state) {
 
 // Have camera follow player
 camera_set_view_pos(view_camera[0], x-camera_get_view_width(view_camera[0])/2, y-camera_get_view_height(view_camera[0])/2);
-
-// Sound Implementation
-if dash{
-audio_play_sound(snd_dash,10,false)	
-}
-
-if melee_attack {
-audio_play_sound(snd_sword,10,false)	
-}
-/*Reload will play normally when pressed but if the sound is mapped to
-reload upon firing all bullets the audio will loop itself all at once 
-causing a not so pleasant noise EX: using in_reload or state = PLAYERSTATE.RELOAD */
-if reload{
-audio_play_sound(snd_reload,10,false)
-}
-
-if ranged_attack{
-audio_play_sound(snd_shoot,10,false)
-}

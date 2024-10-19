@@ -18,5 +18,6 @@ function scr_player_state_attack_slash() {
 		_sword = instance_create_depth(x, y, 4, obj_plr_sword, _attack_struct);
 		can_attack = false;
 		alarm[2] = max(melee_cooldown + 3, _sword.slash_speed + 3);
+		audio_play_sound(snd_sword,10,false)	
 	}
 }

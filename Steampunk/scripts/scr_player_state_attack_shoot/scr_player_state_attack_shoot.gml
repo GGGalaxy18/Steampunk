@@ -38,6 +38,7 @@ function scr_player_state_attack_shoot() {
 			can_shoot = false;
 			instance_create_layer(x, y, "Instances", obj_plr_bullet);
 			current_magazine -= 1;
+			audio_play_sound(snd_shoot,10,false)
 		}
 	}
 	

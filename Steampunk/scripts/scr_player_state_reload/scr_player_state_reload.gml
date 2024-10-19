@@ -31,5 +31,6 @@ function scr_player_state_reload() {
 		var _scrap_struct = { num_scrap : 1 }
 		instance_create_depth(x, y, 4, obj_scrap_remove, _scrap_struct);
 		obj_player.num_scrap--;
+		audio_play_sound(snd_reload,10,false)
 	}
 }

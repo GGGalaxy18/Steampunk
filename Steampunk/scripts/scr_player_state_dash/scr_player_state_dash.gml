@@ -28,6 +28,7 @@ function scr_player_state_dash() {
 				in_dash = true;					// Enforces dash animation time
 				alarm[0] = _actual_dash_time;			// Dash time (how long dash animation lasts)
 				speed = dash_speed;				// Dash speed
+				audio_play_sound(snd_dash,10,false)	
 			}
 		} else if (can_dash and dash and ((xdir != 0) or (ydir != 0))) {	// Execute initial dash
 			direction = set_iso_direction(point_direction(0, 0, xdir, ydir));
@@ -39,6 +40,7 @@ function scr_player_state_dash() {
 				alarm[0] = _actual_dash_time;			// Dash time (how long dash animation lasts)
 				alarm[1] = dash_cooldown;		// Cooldown before dashing again
 				speed = dash_speed;				// Dash speed
+				audio_play_sound(snd_dash,10,false)	
 			}
 		} else if (!can_dash and dash and array_length(dash_queue) == 0) {			// Execute second dash (not in queue)
 			direction = set_iso_direction(point_direction(0, 0, xdir, ydir));
@@ -49,6 +51,7 @@ function scr_player_state_dash() {
 				in_dash = true;					// Enforces dash animation time
 				alarm[0] = _actual_dash_time;			// Dash time (how long dash animation lasts)
 				speed = dash_speed;				// Dash speed
+				audio_play_sound(snd_dash,10,false)	
 			}
 		} else {											// Return to free state
 			state = PLAYERSTATE.FREE;
