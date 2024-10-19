@@ -11,6 +11,7 @@ can_attack = true;
 can_shoot = true;
 in_reload = false;
 current_magazine = max_magazine;
+bullet_gui_timer = 30;
 
 // Is hit state
 can_be_hit = true;
@@ -24,13 +25,6 @@ is_dead = false;
 
 xdir = 0;
 ydir = 0;
-
-// Sets the player position in the rendered room based on "MAP" instance layer position
-// Should be in every object's create event where position on map matters
-var _rX = room_to_tileroom_x(x, y);
-var _rY = room_to_tileroom_y(x, y);
-x = _rX;
-y = _rY;
 
 previous_sprite = sprite_index;
 base_y_offset = sprite_get_yoffset(sprite_index);
@@ -51,11 +45,12 @@ reload = noone;
 //player health
 hp = player_health;
 hp_max = hp;
+heal_timer = 0;
 
 healthbar_width = 200;
 healthbar_hieght = 24;
 healthbar_x = (320/2) - (healthbar_width/2);
-healthbar_y =  y - 150;
+healthbar_y =  50;
 
 //player ability gauges
 gauge_x = 1300;

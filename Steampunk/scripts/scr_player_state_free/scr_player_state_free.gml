@@ -88,6 +88,16 @@ function scr_player_state_free(){
 		}
 	}
 	
+	if keyboard_check(ord("H")) {
+		heal_timer++;
+		if heal_timer == 30 and num_scrap >= 10 {
+			hp = hp_max;
+			var _scrap_struct = { num_scrap : 10 }
+			instance_create_depth(x, y, 4, obj_scrap_remove, _scrap_struct);
+			num_scrap -= 10;
+		}
+	} else heal_timer = 0;
+	
 	// Reload
 	if reload and current_magazine < max_magazine and num_scrap > 0 {
 		state = PLAYERSTATE.RELOAD;

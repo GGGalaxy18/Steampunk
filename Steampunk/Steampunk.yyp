@@ -74,6 +74,7 @@
     {"id":{"name":"obj_scrap_remove","path":"objects/obj_scrap_remove/obj_scrap_remove.yy",},},
     {"id":{"name":"obj_spawn_controller","path":"objects/obj_spawn_controller/obj_spawn_controller.yy",},},
     {"id":{"name":"obj_spawn_location","path":"objects/obj_spawn_location/obj_spawn_location.yy",},},
+    {"id":{"name":"obj_spawnpoint","path":"objects/obj_spawnpoint/obj_spawnpoint.yy",},},
     {"id":{"name":"obj_testing_marker","path":"objects/obj_testing_marker/obj_testing_marker.yy",},},
     {"id":{"name":"Level1","path":"rooms/Level1/Level1.yy",},},
     {"id":{"name":"Level2","path":"rooms/Level2/Level2.yy",},},

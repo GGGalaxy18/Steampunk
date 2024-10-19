@@ -36,6 +36,7 @@
     {"name":"obj_scrap_remove","order":5,"path":"objects/obj_scrap_remove/obj_scrap_remove.yy",},
     {"name":"obj_spawn_controller","order":3,"path":"objects/obj_spawn_controller/obj_spawn_controller.yy",},
     {"name":"obj_spawn_location","order":2,"path":"objects/obj_spawn_location/obj_spawn_location.yy",},
+    {"name":"obj_spawnpoint","order":6,"path":"objects/obj_spawnpoint/obj_spawnpoint.yy",},
     {"name":"obj_testing_marker","order":11,"path":"objects/obj_testing_marker/obj_testing_marker.yy",},
     {"name":"Level2","order":3,"path":"rooms/Level2/Level2.yy",},
     {"name":"Level3","order":4,"path":"rooms/Level3/Level3.yy",},
