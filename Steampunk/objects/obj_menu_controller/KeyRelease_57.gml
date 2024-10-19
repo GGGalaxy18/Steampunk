@@ -1,2 +1,2 @@
 /// @description go to previous room
-room_goto_previous();
+if not paused room_goto_previous();
