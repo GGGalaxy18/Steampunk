@@ -67,6 +67,7 @@
     {"id":{"name":"obj_dialogue_level_4","path":"objects/obj_dialogue_level_4/obj_dialogue_level_4.yy",},},
     {"id":{"name":"obj_dialogue_level_5","path":"objects/obj_dialogue_level_5/obj_dialogue_level_5.yy",},},
     {"id":{"name":"obj_dialogue_parent","path":"objects/obj_dialogue_parent/obj_dialogue_parent.yy",},},
+    {"id":{"name":"obj_dialogue_tbc","path":"objects/obj_dialogue_tbc/obj_dialogue_tbc.yy",},},
     {"id":{"name":"obj_enemy_col","path":"objects/obj_enemy_col/obj_enemy_col.yy",},},
     {"id":{"name":"obj_enemy_slash","path":"objects/obj_enemy_slash/obj_enemy_slash.yy",},},
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},},
@@ -88,6 +89,7 @@
     {"id":{"name":"Level3","path":"rooms/Level3/Level3.yy",},},
     {"id":{"name":"level4","path":"rooms/level4/level4.yy",},},
     {"id":{"name":"level5","path":"rooms/level5/level5.yy",},},
+    {"id":{"name":"TBC","path":"rooms/TBC/TBC.yy",},},
     {"id":{"name":"scr_anim_end","path":"scripts/scr_anim_end/scr_anim_end.yy",},},
     {"id":{"name":"scr_check_dash","path":"scripts/scr_check_dash/scr_check_dash.yy",},},
     {"id":{"name":"scr_check_walkable","path":"scripts/scr_check_walkable/scr_check_walkable.yy",},},
@@ -173,6 +175,7 @@
     {"roomId":{"name":"Level3","path":"rooms/Level3/Level3.yy",},},
     {"roomId":{"name":"level4","path":"rooms/level4/level4.yy",},},
     {"roomId":{"name":"level5","path":"rooms/level5/level5.yy",},},
+    {"roomId":{"name":"TBC","path":"rooms/TBC/TBC.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

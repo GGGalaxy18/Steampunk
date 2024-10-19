@@ -26,6 +26,7 @@
     {"name":"inst_6AF6ECE","path":"rooms/level5/level5.yy",},
     {"name":"inst_460C58F6","path":"rooms/level5/level5.yy",},
     {"name":"inst_3C8C41BE","path":"rooms/level5/level5.yy",},
+    {"name":"inst_653A0014","path":"rooms/level5/level5.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -54,6 +55,7 @@
       ],"layers":[],"name":"Buildings","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"RenderInstance","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v1","%Name":"inst_469B1407_1_1_1_1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_469B1407_1_1_1_1","objectId":{"name":"obj_render","path":"objects/obj_render/obj_render.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":64.0,"y":160.0,},
+        {"$GMRInstance":"v1","%Name":"inst_653A0014","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_653A0014","objectId":{"name":"obj_dialogue_level_5","path":"objects/obj_dialogue_level_5/obj_dialogue_level_5.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-160.0,"y":1152.0,},
       ],"layers":[],"name":"RenderInstance","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Map","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Map","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":80,"SerialiseWidth":80,"TileCompressedData":[
           -56,0,-24,-2147483648,-57,0,-23,-2147483648,-66,0,-14,-2147483648,-66,0,-14,-2147483648,-66,0,-14,-2147483648,

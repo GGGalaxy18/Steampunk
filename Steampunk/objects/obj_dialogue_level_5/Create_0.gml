@@ -4,5 +4,5 @@
 // Inherit the parent event
 event_inherited();
 
-add(spr_player_pic, "Ambrose: They say that roses are both beauty of pain.");
-add(spr_player_pic, "Ambrose: All I know is the latter.");
+add(spr_player_pic, "Ambrose: I think I'm close to the THORN hidout.");
+add(spr_player_pic, "Ambrose: It was so long ago, and my heads a mess. I just need to keep pushing through.");
