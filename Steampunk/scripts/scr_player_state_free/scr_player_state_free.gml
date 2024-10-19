@@ -88,6 +88,7 @@ function scr_player_state_free(){
 		}
 	}
 	
+	// Heal
 	if keyboard_check(ord("H")) {
 		heal_timer++;
 		if heal_timer == 30 and num_scrap >= 10 {

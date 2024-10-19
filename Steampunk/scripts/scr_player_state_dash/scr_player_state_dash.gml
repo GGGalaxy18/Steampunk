@@ -13,6 +13,9 @@ function scr_player_state_dash() {
 		image_index = 0;
 	}
 	
+	// for dash event dialog
+	has_dashed = true;
+	
 	// Set sprite to face left or right
 	if hspeed < 0 {
 		image_xscale = -1 * abs(image_xscale);

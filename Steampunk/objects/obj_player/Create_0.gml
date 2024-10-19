@@ -60,3 +60,8 @@ gauge_y = 700;
 num_scrap = 0;
 
 in_dialog = false;
+
+
+// first time events
+first_time_low = false;
+has_dashed = false;
