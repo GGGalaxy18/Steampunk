@@ -36,7 +36,7 @@ function scr_player_state_attack_shoot() {
 	
 			alarm[4] = ranged_cooldown;
 			can_shoot = false;
-			instance_create_layer(x, y, "Instances", obj_plr_bullet);
+			instance_create_layer(x, y - sprite_height/2, "Instances", obj_plr_bullet);
 			current_magazine -= 1;
 			audio_play_sound(snd_shoot,10,false)
 		}
