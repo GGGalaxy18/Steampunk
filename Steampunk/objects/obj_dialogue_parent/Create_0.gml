@@ -20,3 +20,6 @@ alpha = 0;
 
 
 can_proceed = false
+
+obj_menu_controller.dialog_pause = true;
+obj_menu_controller.dialog_id = id;

@@ -8,5 +8,6 @@ void main()
 {
     vec4 Color = texture2D( gm_BaseTexture, v_vTexcoord );
     vec3 lum = vec3(0.299, 0.587, 0.114);
-    gl_FragColor = vec4( vec3(dot( Color.rgb, lum)), Color.a);
+    gl_FragColor = vec4(vec3(dot( Color.rgb, lum)), Color.a);
+	//layout(location = 0) out vec4(vec3(dot( Color.rgb, lum)), Color.a);
 }

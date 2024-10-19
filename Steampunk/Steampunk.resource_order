@@ -22,8 +22,8 @@
   "ResourceOrderSettings":[
     {"name":"obj_bloodied_scraps","order":5,"path":"objects/obj_bloodied_scraps/obj_bloodied_scraps.yy",},
     {"name":"obj_boundary","order":1,"path":"objects/obj_boundary/obj_boundary.yy",},
+    {"name":"obj_dialogue_entry","order":1,"path":"objects/obj_dialogue_entry/obj_dialogue_entry.yy",},
     {"name":"obj_dialogue_exit","order":2,"path":"objects/obj_dialogue_exit/obj_dialogue_exit.yy",},
-    {"name":"obj_dialogue_sample","order":1,"path":"objects/obj_dialogue_sample/obj_dialogue_sample.yy",},
     {"name":"obj_enemy_slash","order":4,"path":"objects/obj_enemy_slash/obj_enemy_slash.yy",},
     {"name":"obj_enemy","order":1,"path":"objects/obj_enemy/obj_enemy.yy",},
     {"name":"obj_level_exit","order":2,"path":"objects/obj_level_exit/obj_level_exit.yy",},

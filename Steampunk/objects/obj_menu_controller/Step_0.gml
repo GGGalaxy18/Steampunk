@@ -1,5 +1,7 @@
 /// @description pause setup
-if keyboard_check_pressed(ord("P")) {
+if dialog_pause and dialog_id != noone {
+	paused = true;
+} else if keyboard_check_pressed(vk_escape) {
 	paused = !paused;
 	if paused == false {
 		instance_activate_all();

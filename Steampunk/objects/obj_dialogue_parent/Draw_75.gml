@@ -1,5 +1,5 @@
 /// @description 
-/*
+
 if (showing_dialog) {
 	var _text_x = 30;
 	var _text_y = 18;
