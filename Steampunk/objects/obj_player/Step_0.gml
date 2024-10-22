@@ -35,7 +35,10 @@ switch (state) {
 // Have camera follow player
 camera_set_view_pos(view_camera[0], x-camera_get_view_width(view_camera[0])/2, y-camera_get_view_height(view_camera[0])/2);
 
+// Low hp event
 if hp < 30 and not first_time_low {
 	instance_create_layer(x, y, "Instances", obj_dialogue_first_time_low);
 	first_time_low = true;
 }
+
+depth = 100;
